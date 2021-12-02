@@ -12,7 +12,7 @@
       title: String
     },
     methods: {
-      drawerToggle() {
+      drawerToggle: function () {
         this.$emit('drawerToggle');
       }
     }

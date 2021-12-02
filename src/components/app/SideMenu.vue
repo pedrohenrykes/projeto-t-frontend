@@ -40,7 +40,7 @@
       opened: true
     }),
     watch: {
-      drawer(value) {
+      drawer: function (value) {
         this.opened = value;
       }
     }

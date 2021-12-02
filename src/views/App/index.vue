@@ -38,7 +38,7 @@
       ]
     }),
     methods: {
-      drawerToggle() {
+      drawerToggle: function () {
         this.drawer = !this.drawer;
       }
     },
