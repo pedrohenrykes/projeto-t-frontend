@@ -28,7 +28,6 @@
     data: () => ({
       drawer: true,
       menuItems: [
-        { title: 'Usuários', icon: 'mdi-account-multiple', to: '/users' },
         { title: 'Colaboradores', icon: 'mdi-account-group-outline', to: '/employees'},
       ],
       breadcrumbsItems: [

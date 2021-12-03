@@ -1,21 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import EmployeesList from '../views/Employees';
-import UsersList from '../views/Users';
+import Employees from '../views/Employees';
+import EmployeesCreate from '../views/Employees/Create';
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/employees',
-    name: 'Colaboradores',
-    component: EmployeesList
-  },
-  {
-    path: '/users',
-    name: 'Usuários',
-    component: UsersList
-  },
+  { path: '/employees',        component: Employees },
+  { path: '/employees/create', component: EmployeesCreate },
 ];
 
 const router = new VueRouter({
